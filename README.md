@@ -6,7 +6,7 @@ To prepare, please run this code to install and verify the packages:
 
 ```r
 install.packages(
-  c("tidymodels", "xgboost", "tidyposterior", "AmesHousing", "readr", "xgboost"), 
+  c("tidymodels", "tidyposterior", "AmesHousing", "readr", "xgboost"), 
   repos = "http://cran.r-project.org"
 )
 
@@ -15,7 +15,6 @@ library(xgboost)
 library(tidyposterior)
 library(AmesHousing)
 library(readr)
-library(xgboost)
 ``` 
 
 Warnings here are okay, errors are not. 
